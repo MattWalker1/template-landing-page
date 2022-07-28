@@ -1,0 +1,1 @@
+// no inline JS in this prj
