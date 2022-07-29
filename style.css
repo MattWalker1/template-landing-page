@@ -50,7 +50,6 @@
 }
 
 /* Remove default margin */
-
 * {
   margin: 0;
   padding: 0;
@@ -91,7 +90,6 @@ svg {
   max-width: 100%;
   display: block;
 }
-
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
@@ -144,8 +142,7 @@ svg {
   background-color: var(--clr-neutral-900)
 }
 
-
-
+/* *** Font weight utility classes (new default standard on all projects - learn formatting) *** */
 .fw-bold { font-weight: var(--fw-bold); }
 .fw-semi-bold { font-weight: var(--fw-semi-bold); }
 .fw-regular { font-weight: var(--fw-regular); }
