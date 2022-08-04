@@ -16,7 +16,7 @@
       <div class="container"> 
         <a href="#"><img src="images/logo.svg" alt="manage"> </a>
         <nav class="primary-navigation"> 
-          <ul>
+          <ul aria-label="Primary" role="list" class="nav-list">
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Product Catalogue</a></li>
           <li><a href="#">About us</a></li>
@@ -27,14 +27,14 @@
         <button class="button">Get Started</button>
       </div>
   </header>
-
+  
   <main>
     <section> 
       <div class="container">
         <div class="even-columns"> 
           <div> 
-            <h1 class="fs-primary-heading fw-bold"> Bring everyone together to have an orgy</h1>
-            <p> Manage me makes it simple to achieve the unstonkable</p>
+            <h1 class="fs-primary-heading fw-bold"> Bring everyone together for a tea</h1>
+            <p> Manage Me makes it simple to achieve the unstonkable</p>
             <button class="button">Get Started</button>
           </div>
           <img src="images/illustration-intro.svg" alt="">
@@ -55,34 +55,88 @@
           </div>
 
           <div> 
-            <ul role="list">
-              <li><h3 class="fs-600 fw-bold"></h3>
+            <ul class="numbered-items" role="list">
+              <li><h3 class="fs-600 fw-bold">Track company wide progress</h3>
               <p>The display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. </p>
               </li>
 
-              <li><h3 class="fs-600 fw-bold"></h3>
+              <li><h3 class="fs-600 fw-bold"> Advanced built-in reports</h3>
               <p>When measured as a standard rectangular shape, the screen is 5.42 inches (iPhone 13 mini), 6.06 inches (iPhone 13, iPhone 13 Pro), 6.68 inches (iPhone 13 Pro Max), 5.42 inches (iPhone 12 mini) or 6.06 inches (iPhone 12, iPhone 11) diagonally. Actual viewable area is less.</p>
               </li>
 
-              <li><h3 class="fs-600 fw-bold"></h3>
-              <p></p>
+              <li><h3 class="fs-600 fw-bold"> Everything you need</h3>
+              <p>Stop wasting your time tugging over which customer to listen to, join the bureau today.</p>
               </li>
             </ul> 
           </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <h2 class="f2-secondary-heading">What they've said</h2>
+      <!--Carousel here-->
+      <button class="button">Get Started</button>
+    </section>
+
+    <section class="cta | bg-primary-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns">
+            <div>
+              <p class="fs-secondary-heading fw-bold"> </p>
+            </div>
+            <div>
+              <button class="button" data-type="inverted">Get Started</button>
+            </div>
         </div>
       </div>
     </section>
   </main>
 
+
+  <footer class="bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="even-columns">
+        <div>
+          <a href="#"><img src="images/logo.svg" alt="manage"></a>
+          <ul role="list" aria-label="social links">
+            <li><a aria-label="facebook" href="#"></a></li>
+            <li><a aria-label="youtube" ref="#"></a></li>
+            <li><a aria-label="instagram" ref="#"></a></li>
+            <li><a aria-label="twitter" ref="#"></a></li>
+            <li><a aria-label="pinterest" ref="#"></a></li>  
+          </ul>
+        </div> 
+        <div>
+          <nav class="footer-nav">
+            <ul aria-label="Footer" role="list">
+              <li><a href="">Home</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Free Stuff</a></li>
+              <li><a href="">Privacy Shh</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <form action="">
+            <input type="email">
+            <button class="button">Go</button>
+            <p>Copyright Matt Walker 2022. All Rights Reserved</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
   <script type="module" src="/main.js"></script>
 </body>
-
-
-
-
-
-
-
-
 
 </html>
