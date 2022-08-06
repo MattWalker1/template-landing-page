@@ -201,4 +201,12 @@ body {
   font-size: var(--fs-button);
   color: var(--clr-neutral-100);
   background-color: var( --clr-secondary-900);
+  box-shadow: 0 1em 1em -1em rgb(87, 85, 85);
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: var(--clr-accent-100);
+
+
 }
