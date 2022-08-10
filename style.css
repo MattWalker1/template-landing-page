@@ -1,15 +1,12 @@
+/* CSS Pre-setup utility classes - initial color ranges, font, font size, font setup initial CSS stylesheets  */
+
 :root {
   --clr-accent-400: hsl(12, 88%, 590%);
   --clr-accent-100: hsl(13, 100%, 96%);
-
   --clr-primary-400: hsl(228, 39%, 23%);
-
   --clr-secondary-900: hsl(19, 78%, 51%);
-
-
   --clr-neutral-900: hsl(232, 12%, 13%);
   --clr-neutral-100: hsl(0, 0%, 100%);
-
 
   --ff-primary:'Be Vietnam Pro', sans-serif;
 
@@ -87,7 +84,7 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* Make images easier to work with  - use this as default for all projects*/
 img,
 picture,
 svg {
@@ -111,7 +108,7 @@ svg {
   }
 }
 
-/* Utility classes - CSS-pre #2 */
+/* Utility classes - CSS-presetup */
 
 .text-primary-400 {
   color: var(--clr-primary-400)
@@ -129,7 +126,7 @@ svg {
   color: var(--clr-neutral-900)
 }
 
-
+/* Utility classes - background colors */
 .bg-primary-400 {
   background-color: var(--clr-primary-400)
 }
@@ -152,8 +149,6 @@ svg {
 .fw-regular { font-weight: var(--fw-regular); }
 
 .fs-primary-heading { font-size: var(--fs-primary-heading); }
-
-
 .fs-secondary-heading { font-size: var(--fs-secondary-heading); }
 
 .fs-300 { font-size: var(--fs-300); }
@@ -163,7 +158,6 @@ svg {
 .padding-block-900 {
   padding-block: var(--size-900);
 }
-
 
 .container {
   --max-width: 1110px;
