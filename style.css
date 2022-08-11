@@ -130,6 +130,9 @@ svg {
 .bg-primary-400 {
   background-color: var(--clr-primary-400)
 }
+.bg-secondary-900 {
+  background-color: var(--clr-secondary-900)
+}
 .bg-accent-400 {
   background-color: var(--clr-accent-400)
 }
