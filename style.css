@@ -108,6 +108,16 @@ svg {
   }
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* Utility classes - CSS-presetup */
 
 .text-primary-400 {
@@ -204,6 +214,28 @@ body {
 .button:hover,
 .button:focus-visible {
   background-color: var(--clr-accent-100);
+}
 
 
+
+
+
+.primary-header {
+  margin-top: var(--size-900);
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-nav-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0.5em;
+}
+
+.mobile-nav-toggle .icon-close {
+  display:none;
 }
